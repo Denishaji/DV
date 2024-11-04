@@ -11,10 +11,10 @@
 1. **Download Codes:** Download or clone the repository provided in the course materials.
 
 2. **Create Geospatial Visualizations (make 3 choropleth maps in vertical ordering):** Modify the data and create three new geospatial visualizations on one horizontally centered page (use flexbox):
-  - **Top (MAP A):** Actual Population in 1980 (10 points)
-  - **Middle (MAP B):** Population **change** between 1980 and 2010 in each town (10/100 points)
-    - Add interaction (mouse enter/mouse leave) and highlight each town on hover of MAP A and MAP B (20/100 points).
-  - **Bottom (MAP C):** Color code (Hue Channel) the map by Gini Index for each **county** in 2019 (30/100 points).
+   - **Top (MAP A):** Actual Population in 1980 (10 points)
+   - **Middle (MAP B):** Population **change** between 1980 and 2010 in each town (10/100 points)
+     - Add interaction (mouse enter/mouse leave) and highlight each town on hover of MAP A and MAP B (20/100 points).
+   - **Bottom (MAP C):** Color code (Hue Channel) the map by Gini Index for each **county** in 2019 (30/100 points).
 
 3. **Add Tooltip DIV Element:** Add an HTML DIV element to show the Gini index for each year for each county when the mouse enters the **county** on MAP C. (Optional: consider including additional context, such as population statistics)(20/100 points).
 
@@ -43,7 +43,3 @@
   {"county": "Suffolk County", "fips_code": 25025},
   {"county": "Worcester County", "fips_code": 25027}
 ]
-```
-
-## Submission:
-- Submit your assignment by creating a pull request or sharing the link to your GitHub webpage in the course submission portal.
